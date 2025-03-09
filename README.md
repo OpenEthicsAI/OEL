@@ -1,6 +1,6 @@
 # Open Ethics Label (OEL)
 
-This repository contains Open Ethics Label content and integration examples for adding ethical transparency labels to websites and AI-powered applications. The intended use of this repository is for developers and Open Ethics netwoek partners only.
+This repository contains Open Ethics Label content and integration examples for adding ethical transparency labels to websites and AI-powered applications. The intended use of this repository is for developers and Open Ethics network partners only.
 
 Those willing to generate the label for their product, should directly use [this link](http://openethics.ai/label/generate/) to fill in the disclosure form.
 
