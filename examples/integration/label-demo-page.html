@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example Open Ethics Label iframe</title>
+    
+</head>
+<body>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #cccccc;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 1024px;
+            margin: 0 auto;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        
+        /* Other breakpoints for different screen sizes */
+        
+        @media only screen and (max-width: 767px) {
+            .container {
+                padding: 15px;
+            }
+        }
+        
+        @media only screen and (min-width: 768px) and (max-width: 991px) {
+            .container {
+                max-width: 768px;
+            }
+        }
+        
+        @media only screen and (min-width: 992px) and (max-width: 1199px) {
+            .container {
+                max-width: 992px;
+            }
+        }
+        
+        @media only screen and (min-width: 1200px) {
+            .container {
+                max-width: 1200px;
+            }
+        }
+        
+        </style>
+        
+            
+        
+        
+        <div class="container">
+            <h1>Example Open Ethics Label iframe</h1>
+
+            
+
+            
+            <div id="oel_form"></div>
+
+            
+            <div class="clear"></div>
+
+        </div>
+
+        <!-- PAGE CONTENT -->
+
+        <div id="oel_form"></div>
+
+        <script src="https://openethics.ai/src/js/oel-form.js"></script>
+        <script>
+
+            const key = "2c810801-2dbe-4efd-9d08-0367c2b46420";
+            const alias = "test";
+            const selector = "#oel_form";
+
+            // Call the initialization function with your key, alias, and target element selector
+            initializeOpenEthicsLabelForm(key, alias, selector);
+        </script>
+</body>
+</html>

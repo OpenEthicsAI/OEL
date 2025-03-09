@@ -1,0 +1,29 @@
+<!-- BEGIN iFrame Content for the Custom Open Ethics Label Form -->
+<div id="oel_container">
+    <iframe
+    seamless
+    allowfullscreen
+    loading="lazy"
+    width="100%"
+    scrolling="no" 
+    src="https://openethics.ai/label/generate-custom/?partner=test&key=2c810801-2dbe-4efd-9d08-0367c2b46420"
+    frameborder="0"
+    id="oe_label_generator"
+    title="Generate Open Ethics Label"
+    style="border: none; width: 100%;">
+        <p>Visit <a href="https://openethics.ai/label/generate/?partner=test&key=2c810801-2dbe-4efd-9d08-0367c2b46420">this page</a> to generate the Open Ethics Label</p>
+    </iframe>
+
+    <script>
+    // adjust the iframe width and height to the size of the content within
+    window.addEventListener('message', function(event) {
+        if (event.data.height) {
+            const oe_generator_iframe = document.getElementById('oe_label_generator');
+            if (oe_generator_iframe) {
+                oe_generator_iframe.style.height = (event.data.height+200) + 'px';
+            }
+        }
+    });
+    </script>
+</div>
+<!-- END iFrame Content for the Custom Open Ethics Label Form -->

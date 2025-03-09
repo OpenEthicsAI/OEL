@@ -1,0 +1,8 @@
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="8" cy="8" r="8" fill="#333333" class="branding-main" />
+<path d="M10.0173 2L11.9827 3.17391V5.52174L10.0173 6.69565L8.05189 5.52174V3.17391L10.0173 2Z" fill="#FFFFFF" class="branding-accent_pb" />
+<path d="M3.96541 5.65218L5.93082 6.82609V9.17392L3.96541 10.3478L2 9.17392V6.82609L3.96541 5.65218Z" fill="#FFFFFF" class="branding-accent_pb" />
+<path d="M5.9827 9.30435L7.94811 10.4783V12.8261L5.9827 14L4.0173 12.8261V10.4783L5.9827 9.30435Z" fill="#FFFFFF" class="branding-accent_pb" />
+<path d="M10.0173 9.30435L11.9827 10.4783V12.8261L10.0173 14L8.05189 12.8261V10.4783L10.0173 9.30435Z" fill="#FFFFFF" class="branding-accent_pb" />
+<path d="M5.9827 2L7.94811 3.17391V5.52174L5.9827 6.69565L4.0173 5.52174V3.17391L5.9827 2Z" fill="#FFFFFF" class="branding-accent_pb" />
+</svg>
